@@ -1,5 +1,5 @@
 ---
-layout: challenge-post
+layout: default
 title:  Tip Calculator
 theme:  Commerce
 blurb:  "Write an interactive tip calculator in your preferred language."
