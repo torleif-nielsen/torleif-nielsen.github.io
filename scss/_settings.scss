@@ -43,11 +43,20 @@
 
 // 1. Global
 // ---------
+$primary-color-dark:   #303F9F;
+$primary-color:        #3F51B5;
+$material-primary:     #3F51B5;
+$primary-color-light:  #C5CAE9;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FFC107;
+$primary-text-color:   #212121;
+$secondary-text-color: #727272;
+$divider-color:        #B6B6B6;
 
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
-$primary-color: #8bad93;
+// $primary-color: #8bad93;
 $secondary-color: #777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -55,8 +64,8 @@ $alert-color: #ec5840;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$black: #212121;
+$white: #FFFFFF;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: "Raleway","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
@@ -543,7 +552,6 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $white;
+$topbar-background: $primary-color;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
-

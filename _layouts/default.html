@@ -32,60 +32,42 @@
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description }}">
     <meta name="twitter:image" content="{{ page.imageurl }}">
-  
-  </head>        
+
+  </head>
   <body>
-
-    <div class="off-canvas-wrapper">
-      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-
-        <!-- off-canvas title bar for 'small' screen -->
-        <div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="medium">
-          <div class="title-bar-left">
-            <span class="title-bar-title"><a href="{{ site.url }}">{{ site.brand }}</a></span>
-          </div>
-          <div class="title-bar-right">
-            <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
-          </div>
-        </div>
-
-        <!-- off-canvas right menu -->
-        <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
-          <ul class="vertical dropdown menu" data-dropdown-menu>
-            {% include nav.html %}
-          </ul>
-        </div>
-
         <!-- "wider" top-bar menu for 'medium' and up -->
-        <div id="widemenu" class="top-bar">
-          <div class="top-bar-left">
+        <div id="widemenu" class="menu-centered">
+          <!-- <div class="top-bar-left">
             <ul class="dropdown menu" data-dropdown-menu>
-              <li class="menu-text"><a href="{{ site.url }}">{{ site.brand }}</a></li>
+              <li class="menu-text"><a href="/">{{ site.brand }}</a></li>
             </ul>
-          </div>
-          <div class="top-bar-right">
+          </div> -->
+          <!-- <div class="top-bar-right"> -->
             <ul class="menu">
               {% include nav.html %}
             </ul>
-          </div>
+          <!-- </div> -->
         </div>
 
         <!-- original content goes in this container -->
         <div class="off-canvas-content" data-off-canvas-content>
           <div class="row column">
 
-            {{ content }} 
+            {{ content }}
           </div>
 
           <footer class="site-footer row column mtl" role="contentinfo">
           <hr/>
-            <ul class="menu quiet copyright align-right">
-              <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i>@{{ site.twitter }}</a></li>
-              <li><a href="https://github.com/{{ site.github }}/"><i class="fa fa-github"></i>@{{ site.github }}</a></li>
-              <li>{{ site.year }}</li>
-            </ul>
-            <ul class="menu quiet">
+            <ul class="menu quiet medium-6 columns">
               {% include nav.html %}
+            </ul>
+            <ul class="menu quiet copyright align-right medium-6 columns">
+              <!-- <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i>@{{ site.twitter }}</a></li> -->
+              <li>
+                <a href="https://github.com/{{ site.github }}/">
+                  {{ site.year }} <i class="fa fa-github"></i>@{{ site.github }}
+                </a>
+              </li>
             </ul>
           </footer>
         </div><!-- end .off-canvas-content -->
