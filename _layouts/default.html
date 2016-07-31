@@ -36,17 +36,19 @@
   </head>
   <body>
         <!-- "wider" top-bar menu for 'medium' and up -->
-        <div id="widemenu" class="menu-centered">
-          <!-- <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-              <li class="menu-text"><a href="/">{{ site.brand }}</a></li>
-            </ul>
-          </div> -->
-          <!-- <div class="top-bar-right"> -->
-            <ul class="menu">
-              {% include nav.html %}
-            </ul>
-          <!-- </div> -->
+        <div class="menu-wrapper">
+          <div id="widemenu" class="menu-centered">
+            <!-- <div class="top-bar-left">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text"><a href="/">{{ site.brand }}</a></li>
+              </ul>
+            </div> -->
+            <!-- <div class="top-bar-right"> -->
+              <ul class="menu">
+                {% include nav.html %}
+              </ul>
+            <!-- </div> -->
+          </div>
         </div>
 
         <!-- original content goes in this container -->
@@ -58,10 +60,10 @@
 
           <footer class="site-footer row column mtl" role="contentinfo">
           <hr/>
-            <ul class="menu quiet medium-6 columns">
+            <ul class="menu medium-6 columns">
               {% include nav.html %}
             </ul>
-            <ul class="menu quiet copyright align-right medium-6 columns">
+            <ul class="menu copyright align-right medium-6 columns">
               <!-- <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i>@{{ site.twitter }}</a></li> -->
               <li>
                 <a href="https://github.com/{{ site.github }}/">

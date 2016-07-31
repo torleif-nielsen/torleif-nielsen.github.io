@@ -1,23 +1,27 @@
+
 .menu-centered {
-	// background-color: $material-primary;
-	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	background-color: $material-primary;
 	a {
 		font-size: 1.25em;
 		font-weight: 500;
-		color: $material-primary;
+		color: $white;
 	}
 	a:hover {
 		color: $accent-color;
 	}
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 200;
-	@media #{$medium-up} {
-	}
-	@media #{$large-up} {
-	}
+.menu-wrapper {
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
+
+// h1, h2, h3, h4, h5, h6 {
+// 	font-weight: 200;
+// 	@media #{$medium-up} {
+// 	}
+// 	@media #{$large-up} {
+// 	}
+// }
 
 //helper for font weight
 //Open+Sans:400,700,800|Raleway:400,200,700
