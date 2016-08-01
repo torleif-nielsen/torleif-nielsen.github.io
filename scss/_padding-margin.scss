@@ -23,51 +23,51 @@
   		padding-top: 20px !important; }
 
 **************************************************************/
-$paddingMargins: p, m;
-$positions: t, r, b, l;
-$padding-increment: 0.625rem;
-$sizes: s, m, l, n;
-$pm: padding;
-$pos: top;
-$sz: 0;
-$hvpos: v;
-@each $paddingMargin in $paddingMargins {
-	$tempVar : $paddingMargin;
-	@if $paddingMargin == "p" {
-		$pm: padding;
-	} @else {
-		$pm: margin;
-	}
-	@each $position in $positions {
-		$tempVar2: #{$tempVar}#{$position};
-		@if $position == "t" {
-			$pos: top;
-			$hvpos: v;
-		} @else if $position == "r" {
-			$pos: right;
-			$hvpos: h;
-		} @else if $position == "b" {
-			$pos: bottom;
-			$hvpos: v;
-		} @else if $position == "l" {
-			$pos: left;
-			$hvpos: h;
-		}
-		@each $size in $sizes {
-			$tempVar3: #{$tempVar2}#{$size};
-			@if $size == "s" {
-				$sz: $padding-increment; 
-			} @else if $size == "m" {
-				$sz: $padding-increment * 2;
-			} @else if $size == "l" {
-				$sz: $padding-increment * 4;
-			} @else if $size == "n" {
-				$sz: $padding-increment * 0;
-			}
-			.#{$tempVar3}, .#{$tempVar}a#{$size}, .#{$paddingMargin}#{$hvpos}#{$size} {
-				#{$pm}-#{$pos}: $sz !important;
-			} 
-		}
-	}
-}
+// $paddingMargins: p, m;
+// $positions: t, r, b, l;
+// $padding-increment: 0.625rem;
+// $sizes: s, m, l, n;
+// $pm: padding;
+// $pos: top;
+// $sz: 0;
+// $hvpos: v;
+// @each $paddingMargin in $paddingMargins {
+// 	$tempVar : $paddingMargin;
+// 	@if $paddingMargin == "p" {
+// 		$pm: padding;
+// 	} @else {
+// 		$pm: margin;
+// 	}
+// 	@each $position in $positions {
+// 		$tempVar2: #{$tempVar}#{$position};
+// 		@if $position == "t" {
+// 			$pos: top;
+// 			$hvpos: v;
+// 		} @else if $position == "r" {
+// 			$pos: right;
+// 			$hvpos: h;
+// 		} @else if $position == "b" {
+// 			$pos: bottom;
+// 			$hvpos: v;
+// 		} @else if $position == "l" {
+// 			$pos: left;
+// 			$hvpos: h;
+// 		}
+// 		@each $size in $sizes {
+// 			$tempVar3: #{$tempVar2}#{$size};
+// 			@if $size == "s" {
+// 				$sz: $padding-increment;
+// 			} @else if $size == "m" {
+// 				$sz: $padding-increment * 2;
+// 			} @else if $size == "l" {
+// 				$sz: $padding-increment * 4;
+// 			} @else if $size == "n" {
+// 				$sz: $padding-increment * 0;
+// 			}
+// 			.#{$tempVar3}, .#{$tempVar}a#{$size}, .#{$paddingMargin}#{$hvpos}#{$size} {
+// 				#{$pm}-#{$pos}: $sz !important;
+// 			}
+// 		}
+// 	}
+// }
 /***************** end padding and margin settings *************/

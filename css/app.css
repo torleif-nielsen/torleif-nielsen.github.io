@@ -3935,104 +3935,35 @@ table.hover tr:nth-of-type(even):hover {
   		padding-top: 20px !important; }
 
 **************************************************************/
-.pts, .pas, .pvs {
-  padding-top: 0.625rem !important; }
-
-.ptm, .pam, .pvm {
-  padding-top: 1.25rem !important; }
-
-.ptl, .pal, .pvl {
-  padding-top: 2.5rem !important; }
-
-.ptn, .pan, .pvn {
-  padding-top: 0rem !important; }
-
-.prs, .pas, .phs {
-  padding-right: 0.625rem !important; }
-
-.prm, .pam, .phm {
-  padding-right: 1.25rem !important; }
-
-.prl, .pal, .phl {
-  padding-right: 2.5rem !important; }
-
-.prn, .pan, .phn {
-  padding-right: 0rem !important; }
-
-.pbs, .pas, .pvs {
-  padding-bottom: 0.625rem !important; }
-
-.pbm, .pam, .pvm {
-  padding-bottom: 1.25rem !important; }
-
-.pbl, .pal, .pvl {
-  padding-bottom: 2.5rem !important; }
-
-.pbn, .pan, .pvn {
-  padding-bottom: 0rem !important; }
-
-.pls, .pas, .phs {
-  padding-left: 0.625rem !important; }
-
-.plm, .pam, .phm {
-  padding-left: 1.25rem !important; }
-
-.pll, .pal, .phl {
-  padding-left: 2.5rem !important; }
-
-.pln, .pan, .phn {
-  padding-left: 0rem !important; }
-
-.mts, .mas, .mvs {
-  margin-top: 0.625rem !important; }
-
-.mtm, .mam, .mvm {
-  margin-top: 1.25rem !important; }
-
-.mtl, .mal, .mvl {
-  margin-top: 2.5rem !important; }
-
-.mtn, .man, .mvn {
-  margin-top: 0rem !important; }
-
-.mrs, .mas, .mhs {
-  margin-right: 0.625rem !important; }
-
-.mrm, .mam, .mhm {
-  margin-right: 1.25rem !important; }
-
-.mrl, .mal, .mhl {
-  margin-right: 2.5rem !important; }
-
-.mrn, .man, .mhn {
-  margin-right: 0rem !important; }
-
-.mbs, .mas, .mvs {
-  margin-bottom: 0.625rem !important; }
-
-.mbm, .mam, .mvm {
-  margin-bottom: 1.25rem !important; }
-
-.mbl, .mal, .mvl {
-  margin-bottom: 2.5rem !important; }
-
-.mbn, .man, .mvn {
-  margin-bottom: 0rem !important; }
-
-.mls, .mas, .mhs {
-  margin-left: 0.625rem !important; }
-
-.mlm, .mam, .mhm {
-  margin-left: 1.25rem !important; }
-
-.mll, .mal, .mhl {
-  margin-left: 2.5rem !important; }
-
-.mln, .man, .mhn {
-  margin-left: 0rem !important; }
-
 /***************** end padding and margin settings *************/
 /* custom */
+.column, .columns, .columns {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
+
+.thumbnail {
+  border-radius: 5px; }
+
+.shadow-one {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+.shadow-two {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+.shadow-three {
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+.shadow-four {
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.shadow-five {
+  border-radius: 5px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
 .menu-centered {
   background-color: #3F51B5; }
   .menu-centered a {
@@ -4044,10 +3975,14 @@ table.hover tr:nth-of-type(even):hover {
   .menu-centered small {
     color: #FFFFFF; }
 
-.menu-wrapper {
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+.small-size {
+  height: 50%;
+  width: 50%; }
 
-.site-footer a:hover {
+.body-wrapper {
+  margin-top: 1em; }
+
+li a:hover {
   color: #FFC107; }
 
 .font-light {

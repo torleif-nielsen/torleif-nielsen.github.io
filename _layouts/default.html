@@ -51,29 +51,23 @@
           </div>
         </div>
 
-        <!-- original content goes in this container -->
-        <div class="off-canvas-content" data-off-canvas-content>
-          <div class="row column">
+        <div class="body-wrapper">
 
-            {{ content }}
-          </div>
+          {{ content }}
+        </div>
 
-          <footer class="site-footer row column mtl" role="contentinfo">
-          <hr/>
-              {% include nav.html %}
-            <ul class="menu copyright align-right medium-6 columns">
-              <!-- <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i>@{{ site.twitter }}</a></li> -->
-              <li>
-                <a href="https://github.com/{{ site.github }}/">
-                  {{ site.year }} <i class="fa fa-github"></i>@{{ site.github }}
-                </a>
-              </li>
-            </ul>
-          </footer>
-        </div><!-- end .off-canvas-content -->
-
-      </div><!-- end .off-canvas-wrapper-inner -->
-    </div><!-- end .off-canvas-wrapper -->
+        <footer class="site-footer row column mtl" role="contentinfo">
+        <hr/>
+          {% include nav.html %}
+          <ul class="menu copyright align-right medium-6 columns">
+            <!-- <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i>@{{ site.twitter }}</a></li> -->
+            <li>
+              <a href="https://github.com/{{ site.github }}/">
+                {{ site.year }} <i class="fa fa-github"></i>@{{ site.github }}
+              </a>
+            </li>
+          </ul>
+        </footer>
 
     <!-- Loading JavaScripts
     ================================================== -->
