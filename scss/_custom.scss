@@ -32,6 +32,17 @@
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
+.xs-font {
+	font-size: 0.4em;
+}
+
+.show-for-small-only {
+	li {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
 .menu-centered {
 	background-color: $material-primary;
 	a {

@@ -3964,6 +3964,13 @@ table.hover tr:nth-of-type(even):hover {
   border-radius: 5px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
 
+.xs-font {
+  font-size: 0.4em; }
+
+.show-for-small-only li {
+  margin-left: 0px;
+  margin-right: 0px; }
+
 .menu-centered {
   background-color: #3F51B5; }
   .menu-centered a {
