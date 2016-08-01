@@ -4041,6 +4041,8 @@ table.hover tr:nth-of-type(even):hover {
     color: #FFFFFF; }
   .menu-centered a:hover {
     color: #FFC107; }
+  .menu-centered small {
+    color: #FFFFFF; }
 
 .menu-wrapper {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
