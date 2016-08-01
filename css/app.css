@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/* 
-	app.css 
+/*
+	app.css
 	part of http://daigofuji.github.io/jekyll-foundation-56-starter/ by Daigo Fujiwara (@DaigoFuji)
 	http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#CSS_Style_Rules
 	http://csslint.net/ (Will hurt your feelings)
@@ -3941,6 +3941,11 @@ table.hover tr:nth-of-type(even):hover {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem; }
 
+.article {
+  font-size: 1em; }
+  .article p {
+    color: #212121; }
+
 .thumbnail {
   border-radius: 5px; }
 
@@ -3989,7 +3994,7 @@ table.hover tr:nth-of-type(even):hover {
 .body-wrapper {
   margin-top: 1em; }
 
-li a:hover {
+li a:hover, p a:hover {
   color: #FFC107; }
 
 .font-light {
