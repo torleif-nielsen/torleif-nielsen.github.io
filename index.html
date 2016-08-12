@@ -9,15 +9,26 @@ keywords: github pages, Jekyll, foundation 6
   <div class="row">
     {% include profile.html %}
     <div class="medium-9 columns">
-      <h3>I made a thing, to showcase other things I made.</h3>
-
-      <div class="medium-4 columns">
+      <div class="shadow-one text-center">
+        <h3>I made a thing, to showcase other things I made.</h3>
+        <hr>
+        <h3>
+          Current Projects
+        </h3>
       </div>
-
-      <div class="medium-4 columns">
-      </div>
-
-      <div class="medium-4 columns">
+    </div>
+  </div>
+  <br>
+  <div>
+    <div class="row">
+      <div class="medium-12 columns">
+        <div class="shadow-one">
+          <h3>Recent Posts</h3>
+          <hr>
+          {% for post in site.categories.thoughts %}
+            <h4>{{ post.title }}</h4>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
