@@ -3947,7 +3947,8 @@ table.hover tr:nth-of-type(even):hover {
     color: #212121; }
 
 .callout {
-  border-radius: 0.125rem; }
+  border-radius: 0.125rem;
+  border: none; }
 
 .button {
   border-radius: 0.125rem; }
@@ -3955,14 +3956,15 @@ table.hover tr:nth-of-type(even):hover {
 .thumbnail {
   border-radius: 0.125rem; }
 
-.shadow-one {
+.shadow-one, .callout {
   border-radius: 0.125rem;
   padding: 0.625rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
 
-.shadow-two {
+.shadow-two, .callout:hover {
   border-radius: 0.125rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  padding: 0.625rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24); }
 
 .shadow-three {
   border-radius: 0.125rem;
