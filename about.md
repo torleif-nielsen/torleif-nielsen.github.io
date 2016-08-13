@@ -26,7 +26,7 @@ Long story short I am addicted to learning and building new things, and sharing 
 
 I am currently a Undergraduate student in the UH Computer Science program with the fortune to be employed as a Web Programmer for the Distance Course Design & Consulting group at UH Manoa (which means I am a *professional* **Code Monkey**). When school is in session I am easily found amongst the computer related clubs on campus.
 
-When I can find the time I teach a variety of topics about programming and software engineering to fellow students. I have taught high school and college students how to use git, fundamental programming concepts, program design, test-driven and behavior-driven development, and some topics relating to specific programming languages (e.g. Functional vs OO programming).
+When I can find the time, I teach a variety of topics about programming and software engineering to fellow students. I have taught high school and college students how to use git, fundamental programming concepts, program design, test-driven and behavior-driven development, and some topics relating to specific programming languages (e.g. Functional vs OO programming).
 
 
 

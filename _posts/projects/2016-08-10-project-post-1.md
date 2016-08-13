@@ -2,7 +2,7 @@
 layout: default
 title:  "Images"
 blurb: "This is just a sample project post used as a placeholder."
-date:   2016-06-22 09:10:39 -1000
+date:   2016-08-10 09:10:39 -1000
 categories:
 - projects
 tech: # for later use

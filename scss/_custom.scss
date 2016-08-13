@@ -10,6 +10,14 @@
 	}
 }
 
+.callout {
+	border-radius: rem-calc(2px);
+}
+
+.button {
+	border-radius: rem-calc(2px);
+}
+
 .thumbnail {
 	border-radius: rem-calc(2px);
 }
@@ -78,7 +86,7 @@
 .menu-wrapper {
 }
 
-li, p {
+li, p, .callout {
 	a:hover {
 		color: $accent-color;
 	}

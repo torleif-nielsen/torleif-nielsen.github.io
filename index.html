@@ -15,6 +15,19 @@ keywords: github pages, Jekyll, foundation 6
         <h3>
           Current Projects
         </h3>
+        <hr>
+        {% for project in site.categories.projects limit: 2 %}
+          <div class="callout">
+            <div class="">
+              <h5>{{ project.title }}</h5>
+              <p class="">{{ project.blurb }}</p>
+            </div>
+            <div class="">
+              <a href="{{ project.url }}" class="">VIEW</a>
+            </div>
+          </div>
+        {% endfor %}
+        <a href="/projects/" class="button large">View all of my projects</a>
       </div>
     </div>
   </div>
@@ -23,10 +36,18 @@ keywords: github pages, Jekyll, foundation 6
     <div class="row">
       <div class="medium-12 columns">
         <div class="shadow-one">
-          <h3>Recent Posts</h3>
+          <h3>Recent Thoughts</h3>
           <hr>
-          {% for post in site.categories.thoughts %}
-            <h4>{{ post.title }}</h4>
+          {% for thought in site.categories.thoughts %}
+            <div class="callout">
+              <div class="">
+                <h5>{{ thought.title }}</h5>
+                <p class="">{{ thought.blurb }}</p>
+              </div>
+              <div class="">
+                <a href="{{ thought.url }}" class="">READ</a>
+              </div>
+            </div>
           {% endfor %}
         </div>
       </div>
