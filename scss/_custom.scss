@@ -10,6 +10,14 @@
 	}
 }
 
+#projects {
+	min-height: rem-calc(550px);
+}
+
+.profile-links {
+  min-height: rem-calc(245px);
+}
+
 .callout {
 	border-radius: rem-calc(2px);
 	border: none;
