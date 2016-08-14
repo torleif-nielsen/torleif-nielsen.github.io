@@ -2109,7 +2109,7 @@ select {
         display: block;
         margin-right: 0; } }
 
-.callout {
+.callout, .project-card {
   margin: 0 0 1rem 0;
   padding: 1rem;
   border: 1px solid rgba(33, 33, 33, 0.25);
@@ -2117,26 +2117,26 @@ select {
   position: relative;
   color: #212121;
   background-color: white; }
-  .callout > :first-child {
+  .callout > :first-child, .project-card > :first-child {
     margin-top: 0; }
-  .callout > :last-child {
+  .callout > :last-child, .project-card > :last-child {
     margin-bottom: 0; }
-  .callout.primary {
+  .callout.primary, .primary.project-card {
     background-color: #def0fc; }
-  .callout.secondary {
+  .callout.secondary, .secondary.project-card {
     background-color: #ebebeb; }
-  .callout.success {
+  .callout.success, .success.project-card {
     background-color: #e1faea; }
-  .callout.warning {
+  .callout.warning, .warning.project-card {
     background-color: #fff3d9; }
-  .callout.alert {
+  .callout.alert, .alert.project-card {
     background-color: #fce6e2; }
-  .callout.small {
+  .callout.small, .small.project-card {
     padding-top: 0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.5rem; }
-  .callout.large {
+  .callout.large, .large.project-card {
     padding-top: 3rem;
     padding-right: 3rem;
     padding-bottom: 3rem;
@@ -3952,9 +3952,12 @@ table.hover tr:nth-of-type(even):hover {
 .profile-links {
   min-height: 15.3125rem; }
 
-.callout {
+.callout, .project-card {
   border-radius: 0.125rem;
   border: none; }
+
+.project-blurb {
+  min-height: 12.5rem; }
 
 .button {
   border-radius: 0.125rem; }
@@ -3962,12 +3965,12 @@ table.hover tr:nth-of-type(even):hover {
 .thumbnail {
   border-radius: 0.125rem; }
 
-.shadow-one, .callout {
+.shadow-one, .callout, .project-card {
   border-radius: 0.125rem;
   padding: 0.625rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
 
-.shadow-two, .callout:hover {
+.shadow-two, .callout:hover, .project-card:hover {
   border-radius: 0.125rem;
   padding: 0.625rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24); }
@@ -4009,7 +4012,7 @@ table.hover tr:nth-of-type(even):hover {
 .body-wrapper {
   margin-top: 1em; }
 
-li a:hover, p a:hover, .callout a:hover {
+li a:hover, p a:hover, .callout a:hover, .project-card a:hover {
   color: #FFC107; }
 
 .font-light {

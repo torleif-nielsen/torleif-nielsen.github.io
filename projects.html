@@ -4,3 +4,25 @@ permalink: /projects/
 title: Projects
 description: I made some things.
 ---
+<h1 class="text-center">
+  Projects
+</h1>
+<hr>
+<div class="row">
+  {% for project in site.categories.projects %}
+    <div class="medium-4 columns">
+      <div class="project-card">
+        <div class="">
+          <h5>{{ project.title }}</h5>
+          <p class="project-blurb">
+            {{ project.content | strip_html | truncatewords: 30}}
+          </p>
+          <img src="/img/software/elixir-lang-small.png" class="thumbnail" alt="Elixir Lang">
+        </div>
+        <div class="">
+          <a href="{{ project.url }}" class="">VIEW</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

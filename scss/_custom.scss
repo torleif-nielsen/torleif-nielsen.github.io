@@ -28,6 +28,14 @@
 	@extend .shadow-two;
 }
 
+.project-card {
+  @extend .callout;
+}
+
+.project-blurb {
+  min-height: rem-calc(200px);
+}
+
 .button {
 	border-radius: rem-calc(2px);
 }
