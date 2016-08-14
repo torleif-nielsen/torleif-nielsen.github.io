@@ -41,7 +41,11 @@ keywords: github pages, Jekyll, foundation 6
           {% for thought in site.categories.thoughts %}
             <div class="callout">
               <div class="">
-                <h5>{{ thought.title }}</h5>
+                <h5>{{ thought.title }} •
+                  <time datetime="{{ thought.date | date_to_xmlschema }}" itemprop="datePublished">
+                  {{ thought.date | date: "%b %-d, %Y" }}
+                  </time>
+                </h5>
                 <p class="">{{ thought.blurb }}</p>
               </div>
               <div class="">
