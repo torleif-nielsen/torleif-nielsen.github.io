@@ -3946,6 +3946,9 @@ table.hover tr:nth-of-type(even):hover {
   .article p {
     color: #212121; }
 
+.borderless {
+  border: none; }
+
 #projects {
   min-height: 34.375rem; }
 

@@ -17,7 +17,23 @@ description: I made some things.
           <p class="project-blurb">
             {{ project.content | strip_html | truncatewords: 30}}
           </p>
-          <img src="/img/software/elixir-lang-small.png" class="thumbnail" alt="Elixir Lang">
+          {% for tech in project.tech %}
+            {% assign loopindex = forloop.index %}
+            <a data-open="{{ tech }}{{ loopindex }}">
+              <span data-tooltip aria-haspopup="true" class="has-tip top borderless" data-disable-hover="false" tabindex="{{ loopindex }}" title="{{ tech | capitalize }}">
+                <img src="/img/software/{{ tech }}-medium.png" class="thumbnail" alt="{{ tech }}">
+              </span>
+            </a>
+            <div class="reveal text-center" id="{{ tech }}{{ loopindex }}" data-reveal>
+              <h1>{{ tech | capitalize }}</h1>
+              <hr>
+              <img src="/img/software/{{ tech }}.png" alt="{{ tech }}">
+              <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          {% endfor %}
+          <!-- <img src="/img/software/elixir-lang-medium.png" class="thumbnail" alt="Elixir Lang"> -->
         </div>
         <div class="">
           <a href="{{ project.url }}" class="">VIEW</a>
