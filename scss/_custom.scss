@@ -26,6 +26,34 @@
 	border-radius: rem-calc(2px);
 	border: none;
 	@extend .shadow-one;
+  .progress-meter {
+    border-radius: rem-calc(2px);
+    margin-top: rem-calc(10px);
+    margin-bottom: rem-calc(10px);
+  }
+  .progress-meter-text {
+    font-size: 1.25em;
+  }
+}
+
+.master-color {
+  background-color: #2b388e;
+}
+
+.adept-color {
+  background-color: #2b388e;
+}
+
+.journeyman-color {
+  background-color: #136632;
+}
+
+.apprentice-color {
+  background-color: #818a18;
+}
+
+.novice-color {
+  background-color: #9f1d1d;
 }
 
 .callout:hover {
@@ -38,6 +66,16 @@
 
 .project-blurb {
   min-height: rem-calc(200px);
+}
+
+.skill-card {
+  @extend .callout;
+  min-height: rem-calc(75px);
+}
+
+.skill-label {
+  margin-left: rem-calc(5px);
+  font-size: 1.5em;
 }
 
 .button {

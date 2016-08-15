@@ -2109,7 +2109,7 @@ select {
         display: block;
         margin-right: 0; } }
 
-.callout, .project-card {
+.callout, .project-card, .skill-card {
   margin: 0 0 1rem 0;
   padding: 1rem;
   border: 1px solid rgba(33, 33, 33, 0.25);
@@ -2117,26 +2117,26 @@ select {
   position: relative;
   color: #212121;
   background-color: white; }
-  .callout > :first-child, .project-card > :first-child {
+  .callout > :first-child, .project-card > :first-child, .skill-card > :first-child {
     margin-top: 0; }
-  .callout > :last-child, .project-card > :last-child {
+  .callout > :last-child, .project-card > :last-child, .skill-card > :last-child {
     margin-bottom: 0; }
-  .callout.primary, .primary.project-card {
+  .callout.primary, .primary.project-card, .primary.skill-card {
     background-color: #def0fc; }
-  .callout.secondary, .secondary.project-card {
+  .callout.secondary, .secondary.project-card, .secondary.skill-card {
     background-color: #ebebeb; }
-  .callout.success, .success.project-card {
+  .callout.success, .success.project-card, .success.skill-card {
     background-color: #e1faea; }
-  .callout.warning, .warning.project-card {
+  .callout.warning, .warning.project-card, .warning.skill-card {
     background-color: #fff3d9; }
-  .callout.alert, .alert.project-card {
+  .callout.alert, .alert.project-card, .alert.skill-card {
     background-color: #fce6e2; }
-  .callout.small, .small.project-card {
+  .callout.small, .small.project-card, .small.skill-card {
     padding-top: 0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.5rem; }
-  .callout.large, .large.project-card {
+  .callout.large, .large.project-card, .large.skill-card {
     padding-top: 3rem;
     padding-right: 3rem;
     padding-bottom: 3rem;
@@ -2856,9 +2856,9 @@ body {
 
 .progress {
   background-color: #cacaca;
-  height: 1rem;
+  height: 2rem;
   margin-bottom: 1rem;
-  border-radius: 0; }
+  border-radius: 0.125rem; }
   .progress.primary .progress-meter {
     background-color: #2199e8; }
   .progress.secondary .progress-meter {
@@ -2875,7 +2875,8 @@ body {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #38499f; }
+  background-color: #38499f;
+  border-radius: 0; }
 
 .progress-meter-text {
   position: absolute;
@@ -2888,7 +2889,8 @@ body {
   font-size: 0.75rem;
   font-weight: bold;
   color: #FFFFFF;
-  white-space: nowrap; }
+  white-space: nowrap;
+  border-radius: 0.125rem; }
 
 .slider {
   position: relative;
@@ -3955,12 +3957,40 @@ table.hover tr:nth-of-type(even):hover {
 .profile-links {
   min-height: 15.3125rem; }
 
-.callout, .project-card {
+.callout, .project-card, .skill-card {
   border-radius: 0.125rem;
   border: none; }
+  .callout .progress-meter, .project-card .progress-meter, .skill-card .progress-meter {
+    border-radius: 0.125rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem; }
+  .callout .progress-meter-text, .project-card .progress-meter-text, .skill-card .progress-meter-text {
+    font-size: 1.25em; }
+
+.master-color {
+  background-color: #2b388e; }
+
+.adept-color {
+  background-color: #2b388e; }
+
+.journeyman-color {
+  background-color: #136632; }
+
+.apprentice-color {
+  background-color: #818a18; }
+
+.novice-color {
+  background-color: #9f1d1d; }
 
 .project-blurb {
   min-height: 12.5rem; }
+
+.skill-card {
+  min-height: 4.6875rem; }
+
+.skill-label {
+  margin-left: 0.3125rem;
+  font-size: 1.5em; }
 
 .button {
   border-radius: 0.125rem; }
@@ -3968,12 +3998,12 @@ table.hover tr:nth-of-type(even):hover {
 .thumbnail {
   border-radius: 0.125rem; }
 
-.shadow-one, .callout, .project-card {
+.shadow-one, .callout, .project-card, .skill-card {
   border-radius: 0.125rem;
   padding: 0.625rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
 
-.shadow-two, .callout:hover, .project-card:hover {
+.shadow-two, .callout:hover, .project-card:hover, .skill-card:hover {
   border-radius: 0.125rem;
   padding: 0.625rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24); }
@@ -4015,7 +4045,7 @@ table.hover tr:nth-of-type(even):hover {
 .body-wrapper {
   margin-top: 1em; }
 
-li a:hover, p a:hover, .callout a:hover, .project-card a:hover {
+li a:hover, p a:hover, .callout a:hover, .project-card a:hover, .skill-card a:hover {
   color: #FFC107; }
 
 .font-light {

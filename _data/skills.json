@@ -1,0 +1,107 @@
+[
+  {
+    "name"    : "html"       ,
+    "level"   : "adept"     ,
+    "percent" : "80"
+  },
+  {
+    "name"    : "css"        ,
+    "level"   : "journeyman" ,
+    "percent" : "60"
+  },
+  {
+    "name"    : "sass"       ,
+    "level"   : "apprentice" ,
+    "percent" : "40"
+  },
+  {
+    "name"    : "javascript" ,
+    "level"   : "journeyman" ,
+    "percent" : "60"
+  },
+  {
+    "name"    : "ruby-lang"  ,
+    "level"   : "adept"     ,
+    "percent" : "80"
+  },
+  {
+    "name"    : "rails"       ,
+    "level"   : "journeyman"  ,
+    "percent" : "60"
+  },
+  {
+    "name"    : "elixir-lang" ,
+    "level"   : "apprentice"  ,
+    "percent" : "40"
+  },
+  {
+    "name"    : "phoenix"     ,
+    "level"   : "apprentice"  ,
+    "percent" : "40"
+  },
+  {
+    "name"    : "elm-lang"    ,
+    "level"   : "novice"      ,
+    "percent" : "20"
+  },
+  {
+    "name"    : "jekyll"      ,
+    "level"   : "journeyman"  ,
+    "percent" : "60"
+  },
+  {
+    "name"    : "foundation"  ,
+    "level"   : "journeyman"  ,
+    "percent" : "60"
+  },
+  {
+    "name"    : "bootstrap"   ,
+    "level"   : "apprentice"  ,
+    "percent" : "40"
+  },
+  {
+    "name"    : "materialize" ,
+    "level"   : "novice"      ,
+    "percent" : "20"
+  },
+  {
+    "name"    : "bulma"       ,
+    "level"   : "novice"      ,
+    "percent" : "20"
+  },
+  {
+    "name"    : "meteor"      ,
+    "level"   : "journeyman"  ,
+    "percent" : "60"
+  },
+  {
+    "name"    : "mongodb"     ,
+    "level"   : "journeyman"  ,
+    "percent" : "60"
+  },
+  {
+    "name"    : "node"        ,
+    "level"   : "apprentice"  ,
+    "percent" : "40"
+  },
+  {
+    "name"    : "brunch"      ,
+    "level"   : "apprentice"  ,
+    "percent" : "40"
+  },
+  {
+    "name"    : "gulp"        ,
+    "level"   : "novice"      ,
+    "percent" : "20"
+  },
+  {
+    "name"    : "mysql"       ,
+    "level"   : "journeyman"  ,
+    "percent" : "60"
+  },
+  {
+    "name"    : "postgresql"  ,
+    "level"   : "journeyman"  ,
+    "percent" : "60"
+  }
+]

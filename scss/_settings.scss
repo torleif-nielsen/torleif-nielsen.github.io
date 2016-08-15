@@ -58,7 +58,7 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 // $primary-color: #8bad93;
 $secondary-color: #777;
-$success-color: #3adb76;
+$success-color: #136632;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #e6e6e6;
@@ -431,11 +431,11 @@ $pagination-arrows: true;
 // 26. Progress Bar
 // ----------------
 
-$progress-height: 1rem;
+$progress-height: 2rem;
 $progress-background: $medium-gray;
 $progress-margin-bottom: $global-margin;
 $progress-meter-background: $primary-color;
-$progress-radius: $global-radius;
+$progress-radius: rem-calc(2px);
 
 // 27. Reveal
 // ----------
