@@ -46,7 +46,7 @@ keywords: github pages, Jekyll, foundation 6
                   {{ thought.date | date: "%b %-d, %Y" }}
                   </time>
                 </h5>
-                <p class="">{{ thought.blurb }}</p>
+                <p class="">{{ thought.content | strip_html | truncatewords: 20 }}</p>
               </div>
               <div class="">
                 <a href="{{ thought.url }}" class="">READ</a>
