@@ -17,11 +17,14 @@ description: I made some things.
           <p class="project-blurb">
             {{ project.content | strip_html | truncatewords: 30}}
           </p>
+          <p>
+            <h6>Software Stack:</h6>
+          </p>
           {% for tech in project.tech %}
             {% assign loopindex = forloop.index %}
             <a data-open="{{ tech }}{{ loopindex }}">
               <span data-tooltip aria-haspopup="true" class="has-tip top borderless" data-disable-hover="false" tabindex="{{ loopindex }}" title="{{ tech | capitalize }}">
-                <img src="/img/software/{{ tech }}-medium.png" class="thumbnail" alt="{{ tech }}">
+                <img src="/img/software/{{ tech }}-medium.png" class="thumbnail" style="margin-bottom: 0px;" alt="{{ tech }}">
               </span>
             </a>
             <div class="reveal text-center" id="{{ tech }}{{ loopindex }}" data-reveal>
@@ -36,6 +39,7 @@ description: I made some things.
           <!-- <img src="/img/software/elixir-lang-medium.png" class="thumbnail" alt="Elixir Lang"> -->
         </div>
         <div class="">
+          <hr>
           <a href="{{ project.url }}" class="">VIEW</a>
         </div>
       </div>
