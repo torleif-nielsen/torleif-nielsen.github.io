@@ -10,12 +10,12 @@ description: I made some things.
 <hr>
 <div class="row">
   {% for project in site.categories.projects %}
-    <div class="medium-4 columns">
+    <div class="medium-6 columns">
       <div class="project-card">
         <div class="">
           <h5>{{ project.title }}</h5>
           <p class="project-blurb">
-            {{ project.content | strip_html | truncatewords: 30}}
+            {{ project.content | strip_html | truncatewords: 50}}
           </p>
           <p>
             <h6>Software Stack:</h6>
