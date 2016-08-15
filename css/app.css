@@ -3977,7 +3977,9 @@ table.hover tr:nth-of-type(even):hover {
   background-color: #136632; }
 
 .apprentice-color {
-  background-color: #818a18; }
+  background-color: #d3e22b; }
+  .apprentice-color .progress-meter-text {
+    color: #212121; }
 
 .novice-color {
   background-color: #9f1d1d; }

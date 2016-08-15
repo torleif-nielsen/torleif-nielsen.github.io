@@ -49,7 +49,10 @@
 }
 
 .apprentice-color {
-  background-color: #818a18;
+  background-color: #d3e22b;
+  .progress-meter-text {
+    color: $primary-text-color;
+  }
 }
 
 .novice-color {

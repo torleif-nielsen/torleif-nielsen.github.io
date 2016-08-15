@@ -45,6 +45,16 @@
     "percent" : "20"
   },
   {
+    "name"    : "python"      ,
+    "level"   : "journeyman"  ,
+    "percent" : "60"
+  },
+  {
+    "name"    : "java"        ,
+    "level"   : "adept"       ,
+    "percent" : "80"
+  },
+  {
     "name"    : "jekyll"      ,
     "level"   : "journeyman"  ,
     "percent" : "60"
