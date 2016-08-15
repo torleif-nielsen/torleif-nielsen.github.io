@@ -20,7 +20,7 @@
     "percent" : "60"
   },
   {
-    "name"    : "ruby-lang"  ,
+    "name"    : "ruby"  ,
     "level"   : "adept"     ,
     "percent" : "80"
   },
@@ -30,7 +30,7 @@
     "percent" : "60"
   },
   {
-    "name"    : "elixir-lang" ,
+    "name"    : "elixir" ,
     "level"   : "apprentice"  ,
     "percent" : "40"
   },
@@ -40,7 +40,7 @@
     "percent" : "40"
   },
   {
-    "name"    : "elm-lang"    ,
+    "name"    : "elm"    ,
     "level"   : "novice"      ,
     "percent" : "20"
   },
@@ -91,6 +91,11 @@
   },
   {
     "name"    : "node"        ,
+    "level"   : "apprentice"  ,
+    "percent" : "40"
+  },
+  {
+    "name"    : "react"       ,
     "level"   : "apprentice"  ,
     "percent" : "40"
   },
