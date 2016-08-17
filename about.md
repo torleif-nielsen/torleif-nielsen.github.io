@@ -37,5 +37,5 @@ When I can find the time, I teach a variety of topics about programming and soft
   <em>code with others.</em>
 </div>
 <div class="thumbnail float-right">
-  <img src="/img/teaching_hs_students.jpg">
+  <img src="/img/teaching_hs_students.jpg" alt="Tor shamelessly eating pizza while other students work.">
 </div>
