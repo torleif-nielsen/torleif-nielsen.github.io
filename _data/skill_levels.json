@@ -1,0 +1,7 @@
+{
+    "novice" : "I am getting the hang of this and going through tutorial examples. ",
+    "apprentice" : "I have learned enough of this to use it in non-trivial projects." ,
+    "journeyman" : "I can write production ready software using this tool." ,
+    "adept" : "I can use this professionally and teach a class on this." ,
+    "master" : "I can contribute back to the source with updates, plugins, or packages."
+}

@@ -17,7 +17,10 @@ description: Some stuff I can do.
           <a data-open="{{ skill.name }}">
             <img class="thumbnail" src="/img/software/{{ skill.name }}-medium.png" alt="{{ skill.name | capitalize }}">
           </a>
-          <span class="skill-label">— {{ skill.name | capitalize }}</span>
+          —
+          <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="0" title="{{ site.data.skill_levels[skill.level] }}">
+          <span class="skill-label">{{ skill.name | capitalize }}</span>
+          </span>
           <div class="progress" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="{{ skill.percent }} percent" aria-valuemax="100">
             <span class="progress-meter {{ skill.level }}-color" style="width: {{ skill.percent }}%">
               <p class="progress-meter-text">{{ skill.level | capitalize}}</p>
