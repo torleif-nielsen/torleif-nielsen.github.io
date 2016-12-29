@@ -1,5 +1,3 @@
-# Torleif's Website
+# personal-website
 
-# jekyll-foundation-6-starter
-
-Website built initially off of Daigo Fuji's Jekyll Foundation starter repo.
+The source code for my github pages user site.
