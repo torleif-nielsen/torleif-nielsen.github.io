@@ -1,60 +1,257 @@
----
-layout: default
-title: Tor's Website!
-description: This is my site. Welcome.
-keywords: github pages, Jekyll, foundation 6
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.18" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torleif Nielsen</title>
 
-<section role="main">
-  <div class="row">
-    {% include profile.html %}
-    <div class="medium-9 columns">
-      <div class="shadow-one text-center" id="projects">
-        <h3>I made a thing, to show the other things I make.</h3>
-        <hr>
-        <h3>
-          Current Projects
-        </h3>
-        <hr>
-        {% for project in site.categories.projects limit: 2 %}
-          <div class="callout">
-            <div class="">
-              <h5>{{ project.title }}</h5>
-              <p class="">{{ project.blurb }}</p>
-            </div>
-            <div class="">
-              <a href="{{ project.url }}" class="">VIEW</a>
-            </div>
+    <link rel="stylesheet" href="http://torleif.io//app.css">
+    <script src="http://torleif.io//app.js"></script>
+    <script src="https://use.fontawesome.com/eb5b863b4b.js"></script>
+  </head>
+  <body>
+
+
+<nav class="nav shadow-two">
+  <div class="nav-center">
+    <a class="nav-item" href="http://torleif.io//">
+      Home
+      
+    </a>
+    <a class="nav-item" href="http://torleif.io//post">
+      Posts
+      
+    </a>
+    <a class="nav-item" href="http://torleif.io//project">
+      Projects
+      
+    </a>
+    <a class="nav-item" href="http://torleif.io//resume">
+      Resume/CV
+      
+    </a>
+  </div>
+</nav>
+<br>
+
+
+<div class="container" id="main">
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent is-vertical is-6">
+          <div class="tile is-child notification is-info shadow-two">
+            <p class="title">Hello!</p>
+            <p class="subtitle">
+              My name is Torleif Nielsen, though I go by <b>Tor</b>. I am a growing software developer with a passion for Open Source, and a dream of joining its giants from whom I credit much of what I know.
+            </p>
+            <a class="button is-medium is-outlined is-primary" href="http://torleif.io//about/">
+              The Full Story
+            </a>
           </div>
-        {% endfor %}
-        <a href="/projects/" class="button large">View all projects</a>
+          <div class="tile is-child">
+            <nav class="panel shadow-two">
+              <p class="panel-heading">
+                <i class="fa fa-globe fa-lg" aria-hidden="true"></i>
+                External Links
+              </p>
+              <a class="panel-block" href="https://github.com/torleif-nielsen" target="_blank">
+                <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                GitHub
+              </a>
+              <a class="panel-block" href="https://www.facebook.com/tortoro93" target="_blank">
+                <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+                Facebook
+              </a>
+              <a class="panel-block" href="mailto:torleif@hawaii.edu" target="_blank">
+                <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                torleif@hawaii.edu
+              </a>
+            </nav>
+          </div>
+        </div>
+        <div class="tile is-parent is-6">
+          <div class="tile is-child notification is-primary shadow-two">
+            <p class="title">Torleif Nielsen</p>
+            <p class="subtitle">Software Developer</p>
+            <figure class="image is-square is-profile-frame">
+              <img class="is-profile" src="http://torleif.io//images/profile_picture.jpg">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <div class="tile is-child notification is-info shadow-two">
+          <p class="title">My Projects</p>
+          <p class="subtitle">Some things I'm working on</p>
+          <hr>
+          <div class="content">
+            
+              <div class="box shadow-two">
+  <article class="media">
+    <figure class="media-left has-border-right">
+      <a class="" href="http://torleif.io/project/orca/">
+        <p class="title">ORCA</p>
+      </a>
+      <h4 class="">
+        December, 2016
+      </h4>
+
+      
+          <span class="tag is-medium is-info">
+            Elixir
+          </span>
+          <br>
+      
+          <span class="tag is-medium is-info">
+            Elm
+          </span>
+          <br>
+      
+          <span class="tag is-medium is-info">
+            Phoenix
+          </span>
+          <br>
+      
+          <span class="tag is-medium is-info">
+            PostgreSQL
+          </span>
+          <br>
+      
+
+      <a class="" href="http://torleif.io/project/orca/">
+        Read More
+      </a>
+    </figure>
+    <div class="media-content">
+      <p>Online Resource &amp; Content Administrator</p>
+    </div>
+  </article>
+</div>
+
+            
+              <div class="box shadow-two">
+  <article class="media">
+    <figure class="media-left has-border-right">
+      <a class="" href="http://torleif.io/project/kaiapuni/">
+        <p class="title">Kaiapuni</p>
+      </a>
+      <h4 class="">
+        November, 2015
+      </h4>
+
+      
+          <span class="tag is-medium is-info">
+            Ruby
+          </span>
+          <br>
+      
+          <span class="tag is-medium is-info">
+            Rails
+          </span>
+          <br>
+      
+          <span class="tag is-medium is-info">
+            JavaScript
+          </span>
+          <br>
+      
+          <span class="tag is-medium is-info">
+            MySQL
+          </span>
+          <br>
+      
+
+      <a class="" href="http://torleif.io/project/kaiapuni/">
+        Read More
+      </a>
+    </figure>
+    <div class="media-content">
+      <p>An i18n enabled online platform for creating, distributing, and scoring standardized exams for culturally diverse testing practices.</p>
+    </div>
+  </article>
+</div>
+
+            
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <br>
-  <div>
-    <div class="row">
-      <div class="medium-12 columns">
-        <div class="shadow-one">
-          <h3>Recent Posts</h3>
+    <div class="tile is-parent">
+      <div class="tile is-child notification is-info shadow-two">
+        <div class="content">
+          <p class="title">Recent Posts</p>
           <hr>
-          {% for thought in site.categories.thoughts %}
-            <div class="callout">
-              <div class="">
-                <h5>{{ thought.title }} •
-                  <time datetime="{{ thought.date | date_to_xmlschema }}" itemprop="datePublished">
-                  {{ thought.date | date: "%b %-d, %Y" }}
-                  </time>
-                </h5>
-                <p class="">{{ thought.content | strip_html | truncatewords: 20 }}</p>
-              </div>
-              <div class="">
-                <a href="{{ thought.url }}" class="">READ</a>
-              </div>
-            </div>
-          {% endfor %}
+          <div class="content">
+            
+            
+              <div class="box shadow-two">
+  <a class="" href="http://torleif.io/post/graduated/">
+    <p class="title">Graduated!</p>
+    <p class="subtitle">
+      December 28, 2016
+    </p>
+  </a>
+  <br>
+  <article class="media">
+    <div class="media-content">
+      <p>I graduated~!</p>
+    </div>
+  </article>
+  <hr>
+  <a class="" href="http://torleif.io/post/graduated/">
+    Read More
+  </a>
+</div>
+
+            
+              <div class="box shadow-two">
+  <a class="" href="http://torleif.io/post/welcome/">
+    <p class="title">Welcome</p>
+    <p class="subtitle">
+      October 3, 2016
+    </p>
+  </a>
+  <br>
+  <article class="media">
+    <div class="media-content">
+      <p>Hello World!</p>
+    </div>
+  </article>
+  <hr>
+  <a class="" href="http://torleif.io/post/welcome/">
+    Read More
+  </a>
+</div>
+
+            
+          </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            Torleif Nielsen &nbsp;
+            <span class="icon">
+              <i class="fa fa-copyright"></i>
+            </span>
+            &nbsp;
+            2016
+          </p>
+          <p>
+            <a class="icon is-large" href="https://github.com/torleif-nielsen">
+              <i class="fa fa-github"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
