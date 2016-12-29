@@ -6,26 +6,16 @@
     <description>Recent content in Posts on Torleif Nielsen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Dec 2016 12:22:59 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Dec 2016 13:00:29 -1000</lastBuildDate>
     <atom:link href="http://www.torleif.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Graduated!</title>
-      <link>http://www.torleif.io/post/graduated/</link>
-      <pubDate>Wed, 28 Dec 2016 12:22:59 -0800</pubDate>
-      
-      <guid>http://www.torleif.io/post/graduated/</guid>
-      <description>&lt;p&gt;I graduated~!&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Welcome</title>
       <link>http://www.torleif.io/post/welcome/</link>
-      <pubDate>Mon, 03 Oct 2016 13:00:29 -1000</pubDate>
+      <pubDate>Wed, 28 Dec 2016 13:00:29 -1000</pubDate>
       
       <guid>http://www.torleif.io/post/welcome/</guid>
-      <description>&lt;p&gt;Hello World!&lt;/p&gt;
+      <description>&lt;p&gt;Welcome to my newly redesigned and relaunched website. I rebuilt the site to explore some new ideas I picked up after a year of working as a professional web developer. More notably I threw out a number of superfluous pieces in favor of some simpler layouts that play nicer with accessibility and responsive concerns.&lt;/p&gt;
 </description>
     </item>
     

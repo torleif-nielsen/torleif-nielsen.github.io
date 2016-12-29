@@ -6,16 +6,16 @@
     <description>Recent content on Torleif Nielsen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Dec 2016 12:22:59 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Dec 2016 13:00:29 -1000</lastBuildDate>
     <atom:link href="http://www.torleif.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Graduated!</title>
-      <link>http://www.torleif.io/post/graduated/</link>
-      <pubDate>Wed, 28 Dec 2016 12:22:59 -0800</pubDate>
+      <title>Welcome</title>
+      <link>http://www.torleif.io/post/welcome/</link>
+      <pubDate>Wed, 28 Dec 2016 13:00:29 -1000</pubDate>
       
-      <guid>http://www.torleif.io/post/graduated/</guid>
-      <description>&lt;p&gt;I graduated~!&lt;/p&gt;
+      <guid>http://www.torleif.io/post/welcome/</guid>
+      <description>&lt;p&gt;Welcome to my newly redesigned and relaunched website. I rebuilt the site to explore some new ideas I picked up after a year of working as a professional web developer. More notably I threw out a number of superfluous pieces in favor of some simpler layouts that play nicer with accessibility and responsive concerns.&lt;/p&gt;
 </description>
     </item>
     
@@ -25,17 +25,11 @@
       <pubDate>Tue, 27 Dec 2016 20:29:57 -0800</pubDate>
       
       <guid>http://www.torleif.io/project/orca/</guid>
-      <description>&lt;p&gt;Online Resource &amp;amp; Content Administrator&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>http://www.torleif.io/post/welcome/</link>
-      <pubDate>Mon, 03 Oct 2016 13:00:29 -1000</pubDate>
-      
-      <guid>http://www.torleif.io/post/welcome/</guid>
-      <description>&lt;p&gt;Hello World!&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;em&gt;ORCA (Online Resource &amp;amp; Content Administrator)&lt;/em&gt; platform is a project I would like to develop in response to the LMS frameworks and platforms in use such as Sakai, Moodle, Blackboard, and others. Having used Blackboard and Sakai as a student I found myself very stressed with the platform and wished many of the features would be more friendly and be more performant.&lt;/p&gt;
+
+&lt;p&gt;I would also to accomplish building a system that could be distributed easily over a long distance and many hot-pluggable nodes but still function as a single application with a means of populating rich content to better support a learning environment.&lt;/p&gt;
+
+&lt;p&gt;This is still very much in the planning stage but I am looking at using Elixir, Elm, and Phoenix to begin work on this.&lt;/p&gt;
 </description>
     </item>
     
@@ -45,7 +39,19 @@
       <pubDate>Sat, 28 Nov 2015 01:14:55 -0800</pubDate>
       
       <guid>http://www.torleif.io/project/kaiapuni/</guid>
-      <description>&lt;p&gt;An i18n enabled online platform for creating, distributing, and scoring standardized exams for culturally diverse testing practices.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&amp;ldquo;Kaiapuni&amp;rdquo; is an i18n enabled online platform for creating, distributing, and scoring standardized exams for culturally diverse testing practices.&lt;/p&gt;
+
+&lt;p&gt;This was the system I was tasked with working on during my year with the &lt;a href=&#34;https://dcdc.coe.hawaii.edu/&#34;&gt;Distance Course Design &amp;amp; Consulting Group&lt;/a&gt;. There were two primary developers on the project, with a few guest stars for some of the finer details. We built it from the ground up and reached feature-complete within the first 7 months, and used the remaining time on the wish-list features.&lt;/p&gt;
+
+&lt;p&gt;The need for such a system arose from an issue with the &lt;em&gt;No Child Left Behind Act&lt;/em&gt; and Hawaiian Immersion Schools where students are not given a formal introduction to English in the first few grade levels. In order to support these schools an alternative needed to be produced to facilitate the entire testing process from creation, to distribution, to scoring, in the native language of these communities. That said, the system was designed to support any language, provided the end user includes the desired translations.&lt;/p&gt;
+
+&lt;h3 id=&#34;going-forward&#34;&gt;Going Forward&lt;/h3&gt;
+
+&lt;p&gt;I am no longer working for the DCDC group but there was a lot of value in the project both for the clients and for myself as one of the first few major projects I contributed to. There were many very specific features that needed to be included to satisfy State and Federal standards which proved to be challenging and valuable experiences.&lt;/p&gt;
+
+&lt;p&gt;I have their blessing to create a concept fork of the system and I am considering rebuilding it in either a Rails 5 with React setup, or Phoenix and Elm. Either way I am interested in a better view layer as there were features that were particularly arduous with just the vanilla Rails 4 stack.&lt;/p&gt;
 </description>
     </item>
     

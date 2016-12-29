@@ -2,18 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.torleif.io/post/graduated/</loc>
-    <lastmod>2016-12-28T12:22:59-08:00</lastmod>
+    <loc>http://www.torleif.io/post/welcome/</loc>
+    <lastmod>2016-12-28T13:00:29-10:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.torleif.io/project/orca/</loc>
     <lastmod>2016-12-27T20:29:57-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.torleif.io/post/welcome/</loc>
-    <lastmod>2016-10-03T13:00:29-10:00</lastmod>
   </url>
   
   <url>
@@ -47,7 +42,7 @@
   
   <url>
     <loc>http://www.torleif.io/post/</loc>
-    <lastmod>2016-12-28T12:22:59-08:00</lastmod>
+    <lastmod>2016-12-28T13:00:29-10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,7 +59,7 @@
   
   <url>
     <loc>http://www.torleif.io/</loc>
-    <lastmod>2016-12-28T12:22:59-08:00</lastmod>
+    <lastmod>2016-12-28T13:00:29-10:00</lastmod>
     <priority>0</priority>
   </url>
   
