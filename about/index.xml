@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Torleif Nielsen</title>
-    <link>http://torleif.io/about/index.xml</link>
+    <link>http://www.torleif.io/about/index.xml</link>
     <description>Recent content in Abouts on Torleif Nielsen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://torleif.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.torleif.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://torleif.io/about/</link>
+      <link>http://www.torleif.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://torleif.io/about/</guid>
+      <guid>http://www.torleif.io/about/</guid>
       <description>
 
 &lt;p&gt;Hi! My name is Tor and I am a mostly self-trained Software Developer hailing from Honolulu, and I develop primarily for the web.&lt;/p&gt;

@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Edtech on Torleif Nielsen</title>
-    <link>http://torleif.io/categories/edtech/index.xml</link>
+    <link>http://www.torleif.io/categories/edtech/index.xml</link>
     <description>Recent content in Edtech on Torleif Nielsen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://torleif.io/categories/edtech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.torleif.io/categories/edtech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ORCA</title>
-      <link>http://torleif.io/project/orca/</link>
+      <link>http://www.torleif.io/project/orca/</link>
       <pubDate>Tue, 27 Dec 2016 20:29:57 -0800</pubDate>
       
-      <guid>http://torleif.io/project/orca/</guid>
+      <guid>http://www.torleif.io/project/orca/</guid>
       <description>&lt;p&gt;Online Resource &amp;amp; Content Administrator&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Kaiapuni</title>
-      <link>http://torleif.io/project/kaiapuni/</link>
+      <link>http://www.torleif.io/project/kaiapuni/</link>
       <pubDate>Sat, 28 Nov 2015 01:14:55 -0800</pubDate>
       
-      <guid>http://torleif.io/project/kaiapuni/</guid>
+      <guid>http://www.torleif.io/project/kaiapuni/</guid>
       <description>&lt;p&gt;An i18n enabled online platform for creating, distributing, and scoring standardized exams for culturally diverse testing practices.&lt;/p&gt;
 </description>
     </item>
